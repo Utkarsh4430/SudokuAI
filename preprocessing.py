@@ -52,8 +52,4 @@ def preprocess(img,dimension):
     # img = cv2.rectangle(img,(x,y),(x+w,y+h),(255,255,255),2)
     img = filters(img,(1,1))
     warped = four_point_transform(img,upper_left,upper_right,lower_right,lower_left)
-    plt.imshow(warped)
-    plt.show()
-
-
-
+    return warped
