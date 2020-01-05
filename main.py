@@ -16,6 +16,13 @@ for i in range(9):
     for j in range(9):
         if(matrix[i][j]==-1):
             print(". ",end = "")
+
             continue
         print(matrix[i][j],end = ' ')
     print()
+
+# try with gaussian filter next
+# correct model
+# code solver
+# organise
+# readme
