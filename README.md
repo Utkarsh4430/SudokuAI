@@ -16,13 +16,13 @@ Using computer vision toh solve the sudoku directly from the images. The project
 
 Example:
 
-` python3 main.py ./Test\ Images/image_1.jpg `
+` python3 main.py ./Test_Images/image_1.jpg `
 
 ## Demo
 
 1. It reads the image present in the given path. (An image from google images in this case)
 
-![alt text](./Testing\ Images/image_1.jpg)
+![alt text](./Test_Images/image_1.jpg)
 
 2. Locates the sudoku in the image and removes the unnecessary portion of the image
 
