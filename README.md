@@ -21,13 +21,17 @@ Example:
 ## Demo
 
 1. It reads the image present in the given path. (An image from google images in this case)
-![alt text](./Testing\ Images/image_1.png)
+
+![alt text](./Testing\ Images/image_1.jpg)
 
 2. Locates the sudoku in the image and removes the unnecessary portion of the image
+
 ![alt text](./demo/1.png)
 
 3. Converts the image to numpy array using Machine Learning
+
 ![alt text](./demo/2.png)
 
 4. Solves the sudoku matrix using backtracking
+
 ![alt text](./demo/3.png)
