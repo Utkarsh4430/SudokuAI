@@ -3,7 +3,6 @@ import numpy as np
 from matplotlib import pyplot as plt
 from keras.models import load_model
 model = load_model("./test_model")
-# visited = np.array()
 
 def centering_number(box,visited):
     up = down = left = right = -1
